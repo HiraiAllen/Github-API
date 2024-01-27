@@ -11,12 +11,10 @@ git clone https://github.com/tu-usuario/tu-proyecto.git
 cd tu-proyecto
 ```
 ### 3. Instalar dependencias
-npm install
+``` npm install ```
 
-### 4. Iniciar el proyecyp
-```
-node app.js
-```
+### 4. Iniciar el proyecto
+``` node app.js ```
 
 ## Descripción del proyecto
 El archivo ``` app.js ``` en este proyecto utiliza Express para crear un servidor web y Axios para realizar solicitudes a la API de GitHub. La ruta principal ("/") está configurada para obtener y mostrar en formato JSON los 10 repositorios más populares del usuario "google" en GitHub.
